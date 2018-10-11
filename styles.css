@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+
+}
+header{
+  height: 20%;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+header h1{
+  margin: 0;
+}
+
+.linha {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: fit-content;
+  margin: auto;
+}
+
+.linha span {
+  display: block;
+
+  width: 50px;
+
+  text-align: center;
+
+  padding: 10px;
+}
+
+.linha span:nth-child(1){
+  border-right: 1px solid black;
+} 
+
+.linha span:nth-child(3){
+  border-left: 1px solid black;
+} 
+
+.linha1, .linha2 {
+  border-bottom: 1px solid black;
+}
